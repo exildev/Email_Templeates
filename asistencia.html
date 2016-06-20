@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
   <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
-  <title>1 Column - image</title>
+  <title>Control de asistencia</title>
 
   <style type="text/css">
 body {
@@ -121,7 +121,7 @@ img {
       <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px">
         <tr>
           <td class="container-padding header" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;padding-bottom:12px;color:#DF4726;padding-left:24px;padding-right:24px">
-            PisciX - {{Tipo actividad}}
+            EXILE - Control de asistencia
           </td>
         </tr>
         <tr>
@@ -131,7 +131,7 @@ img {
   <tr>
     <td class="content-wrapper" style="padding-left:24px;padding-right:24px">
       <br>
-      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">{{Asunto}} sobre {{cliente}}</div>
+      <div class="title" style="font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:600;color:#374550">Informe de {{accion entrada o salida}}</div>
     </td>
   </tr>
   <tr><!--INICIO contenido-->
@@ -145,15 +145,15 @@ img {
             <td class="col" valign="top" style="padding-left:12px;padding-right:12px;padding-top:18px;padding-bottom:12px">
               <table border="0" cellpadding="0" cellspacing="0" class="img-wrapper">
                 <tr>
-                  <td style="padding-bottom:18px"><img src="http://static.exile.com.co/mail_piscix/header.png" border="0" alt="The White Whale" width="100%" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
+                  <td style="padding-bottom:18px"><img src="http://static.exile.com.co/mail_asistencia/asistencia.png" border="0" alt="Asistencia Exile" width="100%" hspace="0" vspace="0" style="max-width:100%; " class="image"></td>
                 </tr>
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">{{INFO base de cliente}}</td>
+                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">{{time}} </td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">{{contenido de la notifiacion}}</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">{{contenido de la accion: salida o entrada}} de operaciones de: <strong>{{usuario}}</strong></div>
               <br>
             </td>
           </tr>
@@ -168,15 +168,15 @@ img {
             <td class="col" valign="top" style="padding-left:12px;padding-right:12px;padding-top:18px;padding-bottom:12px">
               <table border="0" cellpadding="0" cellspacing="0" class="img-wrapper">
                 <tr>
-                  <td style="padding-bottom:18px "><strong>{{G-MAPS SNIPPET}}</strong></td>
+                  <td style="padding-bottom:18px "><strong>{{url de foto de carnet}}</strong></td>
                 </tr>
               </table>
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">{{proximo evento o informacion}}</td>
+                  <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">{{Tiempo}} de {{accion actual: inactiviadad u operacion}} actual</td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">{{contenido texto de la proxima ocurrencia}}</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">{{Tiempo}} de {{accion contraria: inactiviadad u operacion}} anterior</div>
               <br>
             </td>
           </tr>
@@ -191,17 +191,17 @@ img {
         <tr>
           <td class="container-padding footer-text" align="left" style="font-family:Helvetica, Arial, sans-serif;font-size:12px;line-height:16px;color:#aaaaaa;padding-left:24px;padding-right:24px">
             <br><br>
-            Info -PisciX: © 2016 Prisma, Exile.
+            Asistencia - EXILE: © 2016 Exile.
             <br><br>
 
-            Este correo está llegando a {{Email destinatario}}, ya que esta registrado en la plataforma PISCIX como destinatario de notifiaciones de email <a href="#" style="color:#aaaaaa">{{URL PISCIX}}</a> .
+            Este correo está llegando a {{Email destinatario}}, ya que esta registrado en la plataforma de Asistencia de Exile como destinatario de notifiaciones de email <a href="#" style="color:#aaaaaa"></a> .
             <br><br>
 
-            <strong>Prisma</strong><img  style="width: 30%; float: right" src="http://www.exile.com.co/images/logo.png" ><br>
+            <strong>EXILE</strong><img  style="width: 30%; float: right" src="http://www.exile.com.co/images/logo.png" ><br>
             <span class="ios-footer">
               130001 {{diresccion}}<br>
-              <a href="#" style="color:#aaaaaa">{{URL PRISMA}}</a><br>
-              <strong>PISCIX</strong> by <strong>EXILE</strong><br>
+
+
             </span>
             <a href="http://www.exile.com.co" style="color:#aaaaaa">www.exile.com.co</a>
                   <br>
