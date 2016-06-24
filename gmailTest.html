@@ -15,6 +15,14 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+.boton{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+   text-decoration: none;
+   color: #2a7ec3;
+}
+
 table {
   border-spacing: 0;
 }
@@ -93,6 +101,8 @@ img {
   .subtitle {
     margin-top: 0 !important;
   }
+
+
 }
 @media screen and (max-width: 400px) {
   .cols-wrapper {
@@ -176,7 +186,9 @@ img {
                   <td class="subtitle" style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px">{{proximo evento o informacion}}</td>
                 </tr>
               </table>
-              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">{{contenido texto de la proxima ocurrencia}}</div>
+              <div class="col-copy" style="font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;text-align:left;color:#333333">{{contenido texto de la proxima ocurrencia}}
+              <br><br>
+          <a style="font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;font-weight:600;color:#2469A0;padding-bottom:6px;text-decoration:none" href="http://www.google.com" target="_blank">Ir a este Reporte</a></div>
               <br>
             </td>
           </tr>
@@ -194,8 +206,9 @@ img {
             Info -PisciX: © 2016 Prisma, Exile.
             <br><br>
 
-            Este correo está llegando a {{Email destinatario}}, ya que esta registrado en la plataforma PISCIX como destinatario de notifiaciones de email <a href="#" style="color:#aaaaaa">{{URL PISCIX}}</a> .
-            <br><br>
+            Este correo está llegando a {{nombedestinatario}}, ya que esta registrado en la plataforma PISCIX como destinatario de notifiaciones de email <br>
+
+        <br><br>
 
             <strong>Prisma</strong><img  style="width: 30%; float: right" src="http://www.exile.com.co/images/logo.png" ><br>
             <span class="ios-footer">
